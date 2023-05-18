@@ -1,0 +1,11 @@
+train: D:\datasets\electrain\images\trainval # 118287 images
+val: D:\datasets\electrain\images\test # 5000 images
+#test: D:\ZZl\LWdata\images\test # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 5
+# class names
+# names: ['black','brown']
+#names: ['helmet','head','upworkclothes','noupworkclothes','downworkclothes','nodownworkclothes','glove','hand','boot','noboot']
+#names: ['helmet','upworkclothes','downworkclothes','glove','hand','boot']
+names: ['person','helmet','worker','glove','shoes']

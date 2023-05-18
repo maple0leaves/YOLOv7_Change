@@ -1,0 +1,9 @@
+train: D:\ZZl\hand_glove(small)\images\train  # 118287 images
+val: D:\ZZl\hand_glove(small)\images\val # 5000 images
+test: D:\ZZl\hand_glove(small)\images\test # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 2
+# class names
+# names: ['black','brown']
+names: ['hand','glove']
