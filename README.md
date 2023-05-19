@@ -1,5 +1,8 @@
 # YOLOv7_Change
 修改yolov7网络并使用自己的数据集进行训练，对比实验结果，总结经验。
+
+实验后的结果都保存在[result](https://github.com/maple0leaves/YOLOv7_Change/tree/master/results)
+
 ## 1.Now 
 
 yolov7网络使用yaml文件进行加载，所以修改yaml文件和相关代码可以达到修改网络的目的![change_yaml](https://github.com/maple0leaves/YOLOv7_Change/blob/master/images/change_yaml.png)
@@ -22,7 +25,7 @@ yolov7网络使用yaml文件进行加载，所以修改yaml文件和相关代码
 | :------------------------: | :-------: | :----: | :-----: | :----------: |
 | yolov7_ConvSE_PConv_origin |   0.883   | 0.916  |  0.939  |    0.527     |
 |       yolov7_ConvSE        |   0.746   | 0.749  |  0.761  |    0.373     |
-|        yolov7_PConv        |     -     |   -    |    -    |      -       |
+|        yolov7_PConv        |   0.838   | 0.879  |  0.894  |    0.468     |
 |    yolov7_ACmix_origin     |   0.889   | 0.965  |  0.934  |    0.541     |
 |        yolov7_ACmix        |   0.906   | 0.968  |  0.941  |    0.556     |
 
@@ -44,8 +47,8 @@ yolov7_ACmix 使用[yolov7ACmix.yaml](https://github.com/maple0leaves/YOLOv7_Cha
 
 ## 4.Conclusion
 
-yolov7_ConvSE各项指标都下降
+yolov7_ConvSE各项指标都**下降**
 
-yolov7_PConv各项指标都下降
+yolov7_PConv各项指标都**下降**,网络的**参数减少** 
 
-yolov7_ACmix各项指标均提升
+yolov7_ACmix各项指标**均提升**
