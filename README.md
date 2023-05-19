@@ -2,7 +2,7 @@
 修改yolov7网络并使用自己的数据集进行训练，对比实验结果，总结经验。
 ## 1.Now 
 
-yolov7网络使用yaml文件进行加载，所以修改yaml文件和相关代码可以达到修改网络的目的![]()
+yolov7网络使用yaml文件进行加载，所以修改yaml文件和相关代码可以达到修改网络的目的![change_yaml](https://github.com/maple0leaves/YOLOv7_Change/blob/master/images/change_yaml.png)
 
 ```
 1.yolov7_ConvSE
