@@ -3,4 +3,4 @@
 
 提取码：6fks
 
-![]()
+![data_pt](https://github.com/maple0leaves/YOLOv7_Change/blob/master/ourdata/data_pt.png)
